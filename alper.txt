@@ -1,1 +1,23 @@
 tugba
+
+I want to fix my latest commit message:
+
+$ git commit --amend
+Add a new remote (say that I want to work with a colleague's local branch):
+
+$ git remote add can.oztokmak git+ssh://can.oztokmak@192.168.1.123/KillBill/Server
+Clone branch 'bar' of Can to my local:
+
+$ git checkout -t can.oztokmak/bar
+Although CLI usage is much faster you may probably do all of these with Sourcetree as well. If you'd like to advance in git commands you may take a look at github tutorial.
+
+[edit] About gerrit
+
+gerrit is basically a code review tool which also provides source code hostingach called gerrit-flow. Instead of directly commiting to branches (including master), you commit to either draft (aka refs/drafts/foo where foo is your branch name) branches or the review (aka refs/for/foo where foo is your branch name) branches. This enforces reviewing process for all commits. All commits are merged to certain branches by gerrit itself according to review status.
+
+[edit] Client Installati
+
+gerrit is only installed on the central server. In order to use it, you have to install git as client.
+
+[edit] Mac
+If you have homebrew installed on your machine, issue the following command:
