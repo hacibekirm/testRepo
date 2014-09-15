@@ -21,3 +21,6 @@ gerrit is only installed on the central server. In order to use it, you have to 
 
 [edit] Mac
 If you have homebrew installed on your machine, issue the following command:
+
+
+test
