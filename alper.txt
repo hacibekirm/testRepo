@@ -1,5 +1,3 @@
-tugba
-
 I want to fix my latest commit message:
 
 $ git commit --amend
