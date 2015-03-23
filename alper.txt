@@ -22,3 +22,5 @@ If you have homebrew installed on your machine, issue the following command:
 
 
 test
+
+hotfix denemesi
