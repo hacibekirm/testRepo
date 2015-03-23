@@ -1,26 +1,9 @@
-I want to fix my latest commit message:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ornare id tortor nec sollicitudin. Nam id turpis finibus, ullamcorper neque sit amet, porta magna. Ut dictum fermentum finibus. Cras in nunc laoreet tellus dapibus consequat eget nec nulla. Duis at leo quis ligula malesuada rutrum non vel diam. Fusce tempor ex nec urna convallis, in mattis lectus blandit. Fusce id eleifend mi. Mauris consectetur sem ut semper varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam hendrerit odio nec sollicitudin faucibus. Curabitur est risus, feugiat sed lacinia ac, lacinia imperdiet nulla. Sed non mauris sit amet neque luctus varius. Nullam ut lectus velit. Sed finibus orci eu viverra accumsan. Nam sed porttitor justo. Etiam tempus condimentum enim sit amet aliquam.
 
-$ git commit --amend
-Add a new remote (say that I want to work with a colleague's local branch):
+Donec ut eros egestas, faucibus dui eget, vulputate massa. Integer pharetra dignissim lectus at laoreet. Sed dictum non sem sit amet vestibulum. Aenean iaculis metus at augue venenatis aliquam. Praesent blandit purus nisl, ut semper mi rhoncus ac. Sed blandit vulputate risus, a efficitur est gravida a. Nulla eget auctor sem, non laoreet lorem. Nam nunc mi, tristique ac finibus vitae, pulvinar ac arcu. Morbi eget dictum est. Pellentesque aliquet luctus viverra. Pellentesque ligula metus, vestibulum non ipsum vel, tincidunt mollis ex. Integer ultrices eleifend eros, vel condimentum felis varius nec. Quisque pulvinar turpis sed porta viverra.
 
-$ git remote add can.oztokmak git+ssh://can.oztokmak@192.168.1.123/KillBill/Server
-Clone branch 'bar' of Can to my local:
+Vestibulum molestie ante purus, non aliquam sem consectetur id. Phasellus pellentesque eros ac augue fermentum blandit. Nam dapibus sodales nulla, a scelerisque metus hendrerit lacinia. Curabitur et odio pharetra, posuere elit ac, sodales lorem. Proin ullamcorper eleifend laoreet. Duis tincidunt sapien et felis ultrices luctus. Donec porttitor convallis ante, quis rutrum ligula. In feugiat dictum magna in condimentum.
 
-$ git checkout -t can.oztokmak/bar
-Although CLI usage is much faster you may probably do all of these with Sourcetree as well. If you'd like to advance in git commands you may take a look at github tutorial.
+Curabitur porta orci quis mi pellentesque finibus. Sed at quam velit. Mauris iaculis efficitur viverra. Mauris consequat erat sem, vitae porta arcu sagittis eu. Fusce vel feugiat dolor. Maecenas laoreet convallis aliquet. Curabitur vitae aliquam orci, ac cursus sem. Nunc enim nisi, molestie vel fermentum in, vestibulum feugiat lorem. Praesent elementum euismod enim, quis aliquam dui. Nam iaculis ullamcorper enim et malesuada. Maecenas pretium ipsum quis leo fringilla, at feugiat velit pellentesque. Praesent non nunc et metus blandit mattis.
 
-[edit] About gerrit
-
-gerrit is basically a code review tool which also provides source code hostingach called gerrit-flow. Instead of directly commiting to branches (including master), you commit to either draft (aka refs/drafts/foo where foo is your branch name) branches or the review (aka refs/for/foo where foo is your branch name) branches. This enforces reviewing process for all commits. All commits are merged to certain branches by gerrit itself according to review status.
-
-[edit] Client Installati
-
-gerrit is only installed on the central server. In order to use it, you have to install git as client.
-
-[edit] Mac
-If you have homebrew installed on your machine, issue the following command:
-
-
-test
-
-hotfix denemesi
+Mauris luctus ex est, in blandit urna pretium quis. Pellentesque finibus id tellus sed tristique. Suspendisse pellentesque, purus eu tincidunt tempor, dui ex condimentum augue, vel consectetur eros ante in magna. Integer rhoncus arcu et elit lobortis fringilla. Praesent gravida urna ac felis dapibus, ac lobortis est mattis. Nullam at sapien in dui rhoncus blandit. Phasellus convallis sed tellus in viverra. Aliquam erat volutpat. In sodales pretium mi, ac malesuada elit tristique quis. Aliquam feugiat, ante non convallis finibus, enim sapien vulputate urna, id sagittis velit erat eget dui. Etiam venenatis ipsum id faucibus interdum. Nulla hendrerit vehicula suscipit. Phasellus quis mattis felis. Nam sit amet erat a felis egestas consectetur eu id elit. Sed sed libero vel enim vestibulum fermentum ut dapibus erat.
