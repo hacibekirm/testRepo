@@ -1,13 +1,3 @@
-# CEPTETEB Middleware
-
-This middleware talks to TEB's REST-like services, crafts & prepares responses that are specifically designed for the
-mobile apps.
-
-# Links
-
-* [TEB Service Documentation](http://mtest.teb.com.tr/BireyselService/doc/a.html)
-* [Monitise MW Documentation](http://mediawiki.pozitron.com/wiki/TEB_Robin)
-
 # Deployments
 
 * **Sandbox:** [http://s1.ext.pozitron.com/CEPTETEB/](http://s1.ext.pozitron.com/CEPTETEB/) (localDebug, localRelease)
