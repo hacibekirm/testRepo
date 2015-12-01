@@ -14,13 +14,13 @@
 
     <groupId>com.monitise.releasetest</groupId>
     <artifactId>release-test</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>Monitise MEA Release Configuration Testing</name>
     <description>Release management and versioning testing</description>
     <scm>
       <developerConnection>scm:git:ssh://comakh@gerrit.pozitron.com:29418/test</developerConnection>
-      <tag>release-test-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
     <build>
     <plugins>
